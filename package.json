@@ -3,10 +3,7 @@
   "version": "0.0.1",
   "description": "the website for True Freedom Achievers",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/truefreedomachievers/web.git"
-  },
+  "repository": "git+https://github.com/truefreedomachievers/web.git",
   "author": "Roman Rozinov",
   "license": "MIT",
   "bugs": {
@@ -18,10 +15,14 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "jquery": "^3.3.1",
-    "popper": "^1.0.1"
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "peerDependencies": {
+    "popper.js": "^1.14.1"
   }
 }
